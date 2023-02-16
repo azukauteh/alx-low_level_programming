@@ -1,14 +1,11 @@
-#!/bin/bash
-
-#include <stdio.h>
-
+#include<stdio.h>
 /**
- * main -entry point of program
+ * main -is the entry point for the program.
  *
- * Return: zero if error,non zero if no error
+ * Return:zero if no error, Non-zero value  if errors
  */
-
-int main() {
-    puts("Programming is like building a multilingual puzzle");
-    return 0;
+int main(void)
+{
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
