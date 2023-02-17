@@ -4,10 +4,18 @@
 #include <stdlib.h>
 #include <time.h>
 
+/**
+ * initialize a random number generator with current time. strand9time(NULL))
+ *
+ * Generate a random integer and store it in n.int = n
+ *
+ */
+
+
 int main(void)
 {
-    srand(time(NULL));  // Initialize random number generator with current time
-    int n = rand();     // Generate a random integer and store it in n
+    srand(time(NULL)); 
+    int n = rand();    
 
     printf("%d is ", n);
 
@@ -21,4 +29,3 @@ int main(void)
 
     return 0;
 }
-
