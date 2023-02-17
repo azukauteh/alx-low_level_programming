@@ -1,24 +1,23 @@
 #!/bin/bash	
-#include <iostream>
-#include <cstdlib>
-#include <ctime>
 
-int main() {
-    std::srand(std::time(nullptr)); // seed the random number generator
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
-    int n = std::rand(); // generate a random number
+int main(void)
+{
+    srand(time(NULL));  // Initialize random number generator with current time
+    int n = rand();     // Generate a random integer and store it in n
 
-    std::cout << "The number " << n << " is ";
+    printf("%d is ", n);
 
     if (n > 0) {
-        std::cout << "positive";
+        printf("positive\n");
     } else if (n < 0) {
-        std::cout << "negative";
+        printf("negative\n");
     } else {
-        std::cout << "zero";
+        printf("zero\n");
     }
-
-    std::cout << std::endl;
 
     return 0;
 }
