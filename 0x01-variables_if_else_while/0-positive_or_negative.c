@@ -1,31 +1,32 @@
-#!/bin/bash	
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
-/**
- * initialize a random number generator with current time. strand9time(NULL))
- *
- * Generate a random integer and store it in n.int = n
- *
+/*
+ * File: 0-positive_or_negative.c
+ * Auth: Brennan D Baraban
  */
 
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 
+/**
+ * main - Prints a random number and states whether
+ *        it is positive, negative, or zero.
+ *
+ * Return: Always 0.
+*/
 int main(void)
 {
-    srand(time(NULL)); 
-    int n = rand();    
+	int n;
 
-    printf("%d is ", n);
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 
-    if (n > 0) {
-        printf("positive\n");
-    } else if (n < 0) {
-        printf("negative\n");
-    } else {
-        printf("zero\n");
-    }
+	if (n > 0)
+		printf("%d is positive\n", n);
+	else if (n < 0)
+		printf("%d is negative\n", n);
+	else
+		printf("%d is zero\n", n);
 
-    return 0;
-}
+	return (0);
+}}
