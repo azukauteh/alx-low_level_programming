@@ -11,26 +11,34 @@
  *
  * Return: Always 0.
  */
+
+
 int main(void)
 {
-	int digit1, digit2;
+	int c;
+	int d = 0;
 
-	for (digit1 = 0; digit1 < 9; digit1++)
+	while (d < 10)
 	{
-		for (digit2 = digit1 + 1; digit2 < 10; digit2++)
+		c = 0;
+		while (c < 10)
 		{
-			putchar((digit1 % 10) + '0');
-			putchar((digit2 % 10) + '0');
+			if (d != c && d < c)
+			{
+				putchar('0' + d);
+				putchar('0' + c);
 
-			if (digit1 == 8 && digit2 == 9)
-				continue;
-			
-			putchar(',');
-			putchar(' ');
+				if (c + d != 17)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+
+			c++;
 		}
+		d++;
 	}
-
 	putchar('\n');
-
 	return (0);
 }
