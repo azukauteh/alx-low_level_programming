@@ -2,8 +2,12 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - func
+ 
+ * File: 2-print_alphabet_x10.c
+ * Auth: azuka uteh
  *
+ * main - check the code.
+ * 
  * Return - 0
  */
        void print_alphabet_x10(void)
