@@ -1,8 +1,8 @@
-#include <limits.h>
+
 #include "main.h"
 
 /**
- * main - print_last_digit - prints the last digit of a number
+ * main - check the code
  *
  * Return: Always 0.
  */
