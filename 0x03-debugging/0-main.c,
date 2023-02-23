@@ -1,16 +1,31 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
-  * main - Test function for positive or negative
-  * Return: 0
-  */
+ * print_diagonal - Print diagonal line dependent on the integer n.
+ * @n : The number of lines using '\' characters to use
+ * Return: Void.
+ */
 
-int main(void)
+void print_diagonal(int n)
 {
 	int i;
+	int spaces;
 
-	i = 0;
-	positive_or_negative(i);
+	for (i = 0; i < n; i++)
+	{
+		for (spaces = 0; spaces < i; spaces++)
+		{
+			_putchar(' ');
+		}
+		_putchar('\\');
+		_putchar('\n');
+	}
 
-return (0);
+	if (n <= 0)
+	{
+		_putchar('\n');
+	}
 }
+
+
