@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * file: 101-print_number.c // azuka uteh
+ * file: 101-print_number.c
  * base10 - power in 10 base
  * @n: an exponent
  * Return: returns 10 to power exponent
