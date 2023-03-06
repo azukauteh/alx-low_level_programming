@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _memset - azuka uteh
  * @s: pointer to char params
@@ -15,6 +14,7 @@ char *_memset(char *s, char b, unsigned int n)
 	for (i = 0; i < n; i++)
 	{
 		s[i] = b;
+	
 	}
 	return (s);
 }
