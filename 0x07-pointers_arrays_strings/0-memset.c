@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- *  _memset - azuka uteh
  * @s: pointer to char params
  * @b: data to change
  * @n: index
