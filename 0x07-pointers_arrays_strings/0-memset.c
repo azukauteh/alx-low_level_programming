@@ -1,11 +1,10 @@
-/*
- * File: 0-memset.c
- * Auth: azuka uteh
- */
+
 
 #include "main.h"
 
 /**
+ * File: 0-memset.c
+ * Auth: azuka uteh
  * @s: pointer to char params
  * @b: data to change
  * @n: index
