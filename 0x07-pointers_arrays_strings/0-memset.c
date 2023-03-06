@@ -3,8 +3,7 @@
 #include "main.h"
 
 /**
- * File: 0-memset.c
- * Auth: azuka uteh
+ *  _memset - azuka uteh
  * @s: pointer to char params
  * @b: data to change
  * @n: index
