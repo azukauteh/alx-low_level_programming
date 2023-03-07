@@ -1,9 +1,12 @@
 #include "main.h"
+
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
+ * _strchr - prints found c
+ * @s: pointer to char
+ * @c: char params to found
+ * Return: 0
+*/
+
 char *_strchr(char *s, char c)
 {
 	while (*s != '\0')
