@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _strchr - prints found c
+ * _strchr - check the code
  * @s: pointer to char
  * @c: char params to found
- * Return: *S
+ * Return: 0
 */
 
 char *_strchr(char *s, char c)
