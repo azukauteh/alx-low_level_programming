@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strchr - check the code
+ * main - check the code
  * @s: pointer to char
  * @c: char params to found
  * Return: 0
