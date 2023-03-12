@@ -7,8 +7,6 @@
  *       included in the static library libmy.a.
  */
 
-
-
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
