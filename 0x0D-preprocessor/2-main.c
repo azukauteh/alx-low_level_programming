@@ -2,10 +2,8 @@
 #include <stdlib.h>
 
 /*
- * main - Prints the name of the file of the program
- *        was compiled from, followed by a new line.
- *
- * Return: Always 0.
+ * main - prints the names of the file
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
