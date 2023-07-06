@@ -1,6 +1,6 @@
 # 0x1A. C - Hash Tables
 
-Thisdirectory contains solutions for the "0x1A. C - Hash Tables" project assignments. The project focuses on implementing hash tables in the C programming language. Hash tables are data structures that allow efficient retrieval and storage of key-value pairs.
+This directory contains solutions for the "0x1A. C - Hash Tables" project assignments. The project focuses on implementing hash tables in the C programming language. Hash tables are data structures that allow efficient retrieval and storage of key-value pairs.
 
 ## Table of Contents
 
@@ -38,7 +38,7 @@ To use the hash table implementation provided in this repository, follow these s
 1. Clone the repository to your local machine using the following command:
 
    ```
-   git clone https://github.com/azukauteh/alx-low_level_programming.gi
+   git clone https://github.com/azukauteh/alx-low_level_programming.git
    ```
 
 2. Navigate to the project directory:
