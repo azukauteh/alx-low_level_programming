@@ -77,5 +77,5 @@ The repository contains the following files:
 
 ## Author
 
-This project was implemented by Azuka Uteh  as a part of the curriculum  alx_africa sofware engineering.
+This project was implemented by Azuka Uteh  as a part of the curriculum  ALX_africa software engineering.
 
