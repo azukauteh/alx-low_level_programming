@@ -44,13 +44,13 @@ cd 0x1C-C-Makefiles
 3. **Compile the Code**: Use the provided Makefile to compile the C code. Simply run the `make` command.
 
 ```bash
-make
+make -f 3-Makefile
 ```
 
 4. **Run the Executable**: Once the compilation is successful, run the generated executable.
 
 ```bash
-./output
+./school 
 ```
 
 ## Usage
