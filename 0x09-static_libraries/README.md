@@ -42,7 +42,7 @@ To use a static library in your C program, follow these steps:
 1. Include the library header file: In your C source code file (e.g., main.c), include the header file that declares the functions provided by the library. The inclusion typically looks like this:
 
    ```c
-   #include "example.h"
+   #include "main.h"
    ```
 
 2. Compile your program: Compile your program and link it with the static library. The command typically looks like this:
