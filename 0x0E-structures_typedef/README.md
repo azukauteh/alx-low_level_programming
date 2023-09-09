@@ -111,4 +111,4 @@ In this example, the `typedef` keyword is used to define a new type `Person` tha
 
 ## Conclusion
 
-Structures allow you to create custom data types that can hold multiple variables of different types. They are useful for
+Structures allow you to create custom data types that can hold multiple variables of different types.
