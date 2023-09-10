@@ -47,6 +47,7 @@ numbers = (int*)malloc(size * sizeof(int));
 
 if (numbers == NULL) {
     printf("Memory allocation failed\n");
+
     return 1;
 }
 ```
@@ -96,7 +97,3 @@ free(numbers);
 In this example, `free` is used to release the memory allocated for `numbers`. After calling `free`, the memory is no longer accessible.
 
 It's important to note that accessing memory after it has been freed leads to undefined behavior. Therefore, you should avoid using the memory block once it has been freed.
-
-## Conclusion
-
-Dynamic memory allocation
