@@ -21,6 +21,7 @@ This directory contains C programs that demonstrate various search algorithms, i
 
 To compile the program, use a C compiler such as `gcc`:
 
+
 ```bash
  gcc -Wall -Wextra -Werror -pedantic -std=gnu89 0-main.c 0-linear.c -o 0-linear
 
